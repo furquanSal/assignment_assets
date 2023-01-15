@@ -1,0 +1,214 @@
+/* 
+    
+    THIS IS CREATED WITH MY OWN STYLES. TO SEE THE WEBPAGE WITH GIVEN 
+    REFERENCES PLEASE GO TO THE 2ND LINK OR YOU MAY CLICK THE LINK GIVEN BELOW
+
+    
+ */
+
+
+
+header{
+    background-color: #fff;
+    margin:0px;
+    padding:0px;
+    border-bottom: 1px solid rgb(161, 161, 161);
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.header ul{
+    overflow: hidden;
+}
+
+.header ul li{
+    list-style-type:none;
+    float: left;
+    text-decoration: none;
+    display: block;
+}
+
+main{
+    padding-top:16px;
+    padding-right:78px;
+    padding-bottom:16px;
+    padding-left:78px;
+    background-color: #f2f6ff;
+    padding-top: 102px;
+}
+
+.header nav ul h1{
+    /* logo */
+    width: 130px;
+    font-size: 32px;
+    color:#0084ff;
+    margin-bottom: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header nav ul h2{
+    /* Logo Stories Text */
+    margin-top: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500px;
+    font-style: italic;
+}
+
+#label{
+    /* dropdown text */
+    margin-left:85px;
+    margin-top: 46px;
+    margin-right: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    cursor: pointer;
+}
+#drop{
+    margin-left: 0px;
+    margin-top: 46px;
+    border: none;
+    cursor: pointer;
+}
+
+.filter p{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 8px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+#active{
+    background-color: #0084ff;
+}
+
+#active a{
+    color:#fff;
+}
+
+#heading{
+    color: #000;
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 28px;
+    padding-left: 48px;
+    padding-bottom: 12px;
+}
+
+.container{
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-top: 16px;
+}
+
+.categories ul{
+    overflow: hidden;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+.categories li{
+    list-style-type:none;
+    float: left;
+    text-decoration: none;
+    display: block;
+    padding:6px 14px;
+    border: 1px solid #0084ff;
+    width: auto;
+    color:#0084ff;
+    border-radius: 15px;
+    margin:5px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.fa-solid{
+    color:#046fd4;
+}
+
+.categories ul li a{
+    text-decoration: none;
+    color:#0084ff;
+    font-weight: 600;
+}
+
+.card{
+    width:30.3%;
+    background-color: #fff;
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+    display: inline-block;
+    margin:10px;
+    box-shadow: 3px 3px rgb(220, 219, 219);
+}
+
+.image img{
+    width:100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.image{
+    height:176px;
+    width:100%;
+}
+
+.title{
+    font-size: 18px;
+    text-align: left;
+    margin: 0px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+.author{
+    padding-top: 4px;
+}
+
+.author a{
+    color:#0096ff;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.author p{
+    color: rgba(0,0,0,0.7);
+    font-size: 14px;
+    font-weight: 300;
+    display: inline-block;
+}
+
+.textarea{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.details{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    color: rgba(0,0,0,6);
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.author h4, p{
+    display: inline-block;
+}
+
+
+footer{
+    background-color: #172146;
+    color: #fff;
+    text-align: center;
+}
+
